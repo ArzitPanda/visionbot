@@ -28,7 +28,7 @@ const VideoComp = () => {
     <video preload="auto" loop={true} autoPlay={true} muted={true} playsinline="" className=" h-full w-full md:w-4/5 rounded-lg ">
     <source src="https://visionbot.com/videos/bannervideo_white.mp4" type="video/mp4"/>
 
-Your browser does not support the video tag.
+
 </video>
 </div>
 </div>
