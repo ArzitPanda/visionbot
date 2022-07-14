@@ -9,7 +9,7 @@ import { data } from '../Data/pages'
 import Head from 'next/head'
 import { useRouter } from 'next/router';
 
-const solutions = () => {
+const Solutions = () => {
 
  const {asPath}=useRouter();
 
@@ -39,13 +39,13 @@ const solutions = () => {
 </ul>
         <NavBar data3={asPath}/>
         <div className="w-full flex items-center justify-center">
-      <Heading children="solution" form={"Home"} to="solution"/>
+      <Heading c="solution" form="Home" to="solution"/>
       </div>
-        {data.map(data=><Card photoURL={data.photoURL} name={data.name} list={data.list} source={data.slug}/>)}
+        {data.map((data,i)=><Card key={i}photoURL={data.photoURL} name={data.name} list={data.list} source={data.slug}/>)}
          <FooterBot />
     
    </div>
   )
 }
 
-export default solutions
+export default Solutions

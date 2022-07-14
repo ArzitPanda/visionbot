@@ -39,8 +39,8 @@ const BigCard = () => {
        <div className="w-11/12 lg:w-7/12">
           
           {
-          data1.map(element=>{
-                  return(<div className="backdrop-blur-md backdrop-brightness-50 backdrop-opacity-5 backdrop-contrast-50 ">
+          data1.map((element,i)=>{
+                  return(<div key={i} className="backdrop-blur-md backdrop-brightness-50 backdrop-opacity-5 backdrop-contrast-50 ">
                 <div className="text-slate-400 font-bold p-1 border-b border-white">
                     {element.headings.toUpperCase()}
                 </div>

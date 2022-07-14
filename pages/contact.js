@@ -4,7 +4,7 @@ import FooterBot from '../components/FooterBot'
 import NavBar from '../components/NavBar'
 import Head from 'next/head'
  import {useRouter} from 'next/router';
-const contact = () => {
+const Contact = () => {
     const{asPath}=useRouter();
 
     console.log(asPath);
@@ -18,4 +18,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

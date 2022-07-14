@@ -9,7 +9,7 @@ const CardCase = ({imgUrl,problem,solution,heading}) => {
  ">
     <div className="flex items-center justify-between flex-col gap-y-10 p-5"> 
     <h2 className="text-gray-300 bg-slate-900 px-10 py-1 text-lg md:text-xl  m:mt-10 font-bold font-poppins text-center md:text-left">{heading}</h2>
-       <div classname="flex items-center flex-col md:flex-row p-15">
+       <div className="flex items-center flex-col md:flex-row p-15">
         <h2 className="text-gray-300 w-full md:w-5/12 bg-slate-900 px-1 py-1 text-md md:text-lg gont-bold font-poppins text-center rounded-xl">problem statement</h2>
         <p className="text-blue-50 font-thin text-xs">
           {problem}  
@@ -17,7 +17,7 @@ const CardCase = ({imgUrl,problem,solution,heading}) => {
        </div>
 
 
-       <div classname="flex items-center flex-col md:flex-row p-1">
+       <div className="flex items-center flex-col md:flex-row p-1">
         <h2 className="text-gray-300 bg-slate-900 px-10 py-1 my-1 text-md md:text-lg gont-bold font-poppins text-center rounded-xl md:w-5/12">solution</h2>
         <p className="text-blue-50 font-thin text-xs text-center md:text-left">
           {solution}  

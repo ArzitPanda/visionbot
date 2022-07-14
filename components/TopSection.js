@@ -10,7 +10,7 @@ const TopSection = () => {
   <b className="text-white">VisionBot</b> is a Cloud Based AI & Computer Vision Platform that derives analysable objective data regarding objects, people and events from streaming or stored videos. Our target market is retail enterprises that need custom object and event detection through 24x7 visual monitoring to improve operational efficiency.
     </p>
     <p>
-    <b className="text-white">VisionBot</b>  leverages Neural Networks and Deep learning to achieve accuracy of detection and minimising false positives. We have built this platform based on our team's deep skill sets and experience in data science, machine learning and cloud services. We remain in a continuous mode of bringing innovative new solutions around Machine Vision that helps improve operational efficiency of Enterprises.
+    <b className="text-white">VisionBot</b>  leverages Neural Networks and Deep learning to achieve accuracy of detection and minimising false positives. We have built this platform based on our teams deep skill sets and experience in data science, machine learning and cloud services. We remain in a continuous mode of bringing innovative new solutions around Machine Vision that helps improve operational efficiency of Enterprises.
     </p>
     <p>
 

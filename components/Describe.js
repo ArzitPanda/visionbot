@@ -1,7 +1,7 @@
 
 
 const Describe = () => (
-    <div classname="overflow-y-hidden bg-blue-900">
+    <div className="overflow-y-hidden bg-blue-900">
       <div className="mx-auto container f-f-p px-4 xl:px-0 py-29">
         <h1 className="focus:outline-none text-center text-3xl lg:text-4xl font-extrabold lg:leading-9 py-3 tracking-wider text-gray-100">How it works?</h1>
         <div className="md:mt-24 f-f-p">

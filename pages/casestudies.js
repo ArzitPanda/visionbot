@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 
 
 
-const casestudies = () => {
+const Casestudies = () => {
 
 const [datap,setDataP]=useState(Case[0]);
 const {asPath}=useRouter();
@@ -37,4 +37,4 @@ console.log(asPath);
   )
 }
 
-export default casestudies
+export default Casestudies

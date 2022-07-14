@@ -17,8 +17,8 @@ const Privacy = () => {
 </Head>
 
         <Navbar2/>
-        <Heading children={"Privacy Policy"} form="Home" to="Privacy"/>
-      {PrivacyData.map(ele=>{return(<Teststyle name={ele.name} test={ele.test}/>)})}
+        <Heading c={"Privacy Policy"} form="Home" to="Privacy"/>
+      {PrivacyData.map((ele,i)=>{return(<Teststyle key={i} name={ele.name} test={ele.test}/>)})}
       <FooterBot/>
     </div>
   )

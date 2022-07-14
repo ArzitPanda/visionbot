@@ -12,7 +12,7 @@ const ExamplePage = ({posts}) => {
         <NavBar/>
 
         <div className="w-screen flex-col items-center justify-center gap-y-2">
-        <Heading children={posts[0].name} form="solution" to={posts[0].name}/>
+        <Heading c={posts[0].name} form="solution" to={posts[0].name}/>
         </div>
         <h2 className="text-white text-xl md:text-3xl font-semibold text-center">AI DRIVEN AUTOMATED VIDEO MONITORING FOR {posts[0].name.toUpperCase()}</h2>
      

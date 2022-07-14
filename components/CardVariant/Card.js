@@ -19,9 +19,9 @@ const{photoURL,name,list,source}=props;
         <div className="flex max-w-xl sm:items-center sm:justify-center sm:text-center md:text-left flex-col md:items-start px-6 py-12 md:max-w-5xl md:w-[500px]">
             <h2 className="text-2xl font-bold text-white md:text-3xl p-1">{name}<span className="text-blue-400">Idea</span></h2>
             <div className="mt-4 text-gray-400 flex flex-col items-start">
-                {list.map(data=>{
+                {list.map((data,i)=>{
                   return(
-                    <div className='flex flex-row items-start justify-between px-1 py-1'>
+                    <div key={i} className='flex flex-row items-start justify-between px-1 py-1'>
                       <AiOutlineArrowRight color='white' size={20}/>
                       {data}
                     </div>

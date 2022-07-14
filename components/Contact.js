@@ -20,7 +20,7 @@ const Contact = () => {
 						<form className="px-8 pt-6 pb-8 mb-4 bg-white rounded">
 							<div className="mb-4 md:flex md:justify-between">
 								<div className="mb-4 md:mr-2 md:mb-0">
-									<label className="block mb-2 text-sm font-bold text-gray-700" for="firstName">
+									<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="firstName">
 										First Name
 									</label>
 									<input
@@ -31,7 +31,7 @@ const Contact = () => {
 									/>
 								</div>
 								<div className="md:ml-2">
-									<label className="block mb-2 text-sm font-bold text-gray-700" for="lastName">
+									<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="lastName">
 										Last Name
 									</label>
 									<input
@@ -43,7 +43,7 @@ const Contact = () => {
 								</div>
 							</div>
 							<div className="mb-4">
-								<label className="block mb-2 text-sm font-bold text-gray-700" for="email">
+								<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="email">
 									Email
 								</label>
 								<input
@@ -55,7 +55,7 @@ const Contact = () => {
 							</div>
 							<div className="mb-4 md:flex md:justify-between">
 								<div className="mb-4 md:mr-2 md:mb-0">
-									<label className="block mb-2 text-sm font-bold text-gray-700" for="password">
+									<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="password">
 										Password
 									</label>
 									<input
@@ -67,7 +67,7 @@ const Contact = () => {
 									<p className="text-xs italic text-red-500">Please choose a password.</p>
 								</div>
 								<div className="md:ml-2">
-									<label className="block mb-2 text-sm font-bold text-gray-700" for="c_password">
+									<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="c_password">
 										Confirm Password
 									</label>
 									<input
