@@ -12,7 +12,7 @@ export const Statistic = () => {
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
               <ImTarget color="black" />
             </div>
-            <h6 className="text-4xl font-bold text-white">
+            <h6 className="text-4xl font-bold text-white p-2">
               819
             </h6>
             <p className="mb-2 font-bold text-md">something</p>
@@ -24,7 +24,7 @@ export const Statistic = () => {
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
             <ImTarget color="black" />
             </div>
-            <h6 className="text-4xl font-bold text-deep-purple-accent-400">
+            <h6 className="text-4xl font-bold text-deep-purple-accent-400 p-2">
               1.3K
             </h6>
             <p className="mb-2 font-bold text-md">Users</p>
@@ -36,7 +36,7 @@ export const Statistic = () => {
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
             <ImTarget color="black" />
             </div>
-            <h6 className="text-4xl font-bold text-deep-purple-accent-400">91</h6>
+            <h6 className="text-4xl font-bold text-deep-purple-accent-400 p-2">91</h6>
             <p className="mb-2 font-bold text-md">Subscribers</p>
             <p className="text-gray-700">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -46,7 +46,7 @@ export const Statistic = () => {
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
             <ImTarget color="black" />
             </div>
-            <h6 className="text-4xl font-bold text-deep-purple-accent-400">52</h6>
+            <h6 className="text-4xl font-bold text-deep-purple-accent-400 p-2">52</h6>
             <p className="mb-2 font-bold text-md">Products</p>
             <p className="text-gray-700">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

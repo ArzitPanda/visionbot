@@ -31,7 +31,7 @@ const BigCard = () => {
 
 
   return (
-    <div className={"w-full flex flex-col justify-center items-center px-1 md:px-20 py-5 shadow-sm shadow-blue-500"}>
+    <div className={"w-full flex flex-col bgimg6 justify-center items-center px-1 md:px-20 py-5 shadow-sm shadow-blue-500"}>
       <div className='w-full flex items-center lg:justify-start justify-center mb-12 mt-6 border-b-2 border-gray-200'>
          <h1 className="text-5xl text-left p-2 text-slate-200">{headLine.toUpperCase()}</h1>
          </div>
@@ -41,8 +41,8 @@ const BigCard = () => {
           {
           data1.map(element=>{
                   return(<div className="backdrop-blur-md backdrop-brightness-50 backdrop-opacity-5 backdrop-contrast-50 ">
-                <div className="text-blue-800 font-semibold p-1">
-                    {element.headings}
+                <div className="text-slate-400 font-bold p-1 border-b border-white">
+                    {element.headings.toUpperCase()}
                 </div>
                 <div className="text-white font-medium text-sm lg:text-lg my-4 ">
                     {element.content}

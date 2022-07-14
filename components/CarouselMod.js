@@ -29,6 +29,9 @@ return(
 
 
   <Carousel responsive={responsive} 
+  autoPlay={true}
+  infinite={true}
+  autoPlaySpeed={4000}
   className="w-full flex-1"
 >
   <div className="text-[#757579] w-full bg-transparent h-32 md:m-7 rounded-xl flex items-center justify-center   transition-opacity cursor-pointer   hover:backdrop-blur-lg hover:brightness-200">

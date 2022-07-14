@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
   const[name,setName]=useState("arz");
   const[color,setColor]=useState("#05010E")
   const[invColor,setInvColor]=useState("#FFFFFF")
-  const[nav,setNav]=useState(1);
+  const[nav,setNav]=useState(2);
 
     
   

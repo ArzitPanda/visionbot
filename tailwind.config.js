@@ -9,7 +9,8 @@ module.exports = {
     fontFamily:{
 
       'Chivo': ['"Chivo"', 'sans-serif'] ,
-      'Oswald': ['"Oswald"', 'sans-serif']
+      'Oswald': ['"Oswald"', 'sans-serif'],
+      'poppins': ['"Poppins"', 'sans-serif'] 
 
     },
     extend: {},

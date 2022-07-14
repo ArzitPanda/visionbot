@@ -12,18 +12,13 @@ transition={{type:"spring",stiffness:50,duration:2,delay:"3s"}}
 
 >
     
-    <div className="bg-gradient-to-b from-myColor  via-gray-900 to-black  flex relative z-20 items-center overflow-hidden">
-        <div className="container mx-auto px-6 flex relative py-16">
-            <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
+    <div className="bg-gradient-to-b from-myColor  via-gray-900 to-black w-full flex relative z-20 items-center justify-center overflow-hidden">
+        <div className="container mx-auto px-6 flex relative py-16 items-center justify-center">
+            <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20 items-center justify-center">
                 <span className="w-20 h-2 bg-white mb-12">
                 </span>
-                <h1 className="font-bebas-neue uppercase text-5xl sm:text-6xl font-black flex flex-col leading-none text-white ">
-                objective data{' '}
-                    <span className="text-4xl md:text-5xl mt-1 py-3">
-                       subjective Visuals
-                    </span>
-                </h1>
-                <p className="text-sm sm:text-base text-white">
+               
+                <p className=" text-white text-xl md:text-3xl">
                     Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.
                 </p>
                 <div className="flex mt-8">

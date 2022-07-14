@@ -15,30 +15,87 @@ import Jumbo from '../components/Jumbo';
 import CardOne from '../components/CardVariant/CardOne';
 import { Statistic } from '../components/Statistics';
 import VideoComp from '../components/VideoComp';
-
+import SlideShow from '../components/SlideShow';
+import Navbar2 from '../components/Navbar2';
+import Implementation from '../components/Implementation';
+import Heading from '../components/Heading';
+import Describe from '../components/Describe';
+import NewFooter from '../components/NewFooter';
+import { useRouter } from 'next/router';
 
 export default function Home() {
     const data=useContext(Store);
     console.log(data);
 const {nav,setNav} =data;
-
+const {asPath}=useRouter();
   return (
-    <div className={`w-screen  bg-[#05010E]`} >
-        <NavBar/>
-     <Jumbo/>
+
+
+    <div className={`w-screen  bg-[#05010E] relative `} >
+       <Head>
+       <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+</Head>
+
+    <Navbar2 data3={asPath}/>
+
+    <div className="w-screen h-7/12 relative ">
+      <div className="z-20 top-0 absolute bg-black h-full w-full text-white bg-opacity-70 flex flex-col items-center justify-center">
+
+      <div className="flex-1 flex flex-col relative z-20 h-11/12 items-center justify-center" >
+                <span className="w-20 h-2 bg-white mb-12">
+                </span>
+                <h1 className="font-bebas-neue uppercase text-3xl md:text-6xl font-black flex flex-col leading-none text-white ">
+                objective data{' '}
+                    <span className="text-2xl md:text-5xl mt-1 py-3 text-blue-700">
+                       subjective Visuals
+                    </span>
+                </h1>
+                <p className="text-sm sm:text-base text-white w-1/2 text-center hidden md:block">
+                    Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.
+                </p>
+                <div className="flex mt-8">
+                    <a href="#" className="uppercase py-2 px-4 rounded-lg bg-violet-800 border-2 border-transparent text-white text-md mr-4 hover:bg-violet-400">
+                        Try Demo
+                    </a>
+                   
+                </div>
+                <span className="w-20 h-2 bg-white mt-12">
+                </span>
+            </div>
+        <div className="hidden w-full bg-[#0E2A47] bg-opacity-70 h-36 lg:block  ">
+
+      
+
+
+        </div>
+
+
+      </div>
+      <div className="w-full flex justify-center">
+     
+      </div>
+      <video className="h-96 md:h-full object-cover w-full z-10 " preload="auto" loop={true} autoPlay={true} muted={true} >
+                            <source src="https://visionbot.com/videos/bannervideo_white.mp4" type="video/mp4"/>
+      </video>
+     </div>
+    <div className="bgimage">
+    <Jumbo/>
      <Statistic/>
-   <VideoComp/>
-    <BigCard/>
+    </div>
     <CarouselMod/>
+   <VideoComp/>
+  
+    <BigCard/>
+   
     <CardOne/>
-   <div className="flex flex-col md:flex-row items-center justify-around mb-20">
-
-   <img src="tech-3041437_1920.jpg" alt="hello" className="imgBg"/>
-
-
-   </div>
+   
+   
     <HowItWorks/>
-    <FooterBot/>
+   <Describe/>
+   <FooterBot/>
       
      
     </div>

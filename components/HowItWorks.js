@@ -12,7 +12,7 @@ const HowItWorks = () => {
 
 
 return (
-<div className={"w-full flex flex-col justify-center bg-slate-900 items-center px-1 md:px-20 py-5 shadow-sm shadow-blue-500 "}>
+<div className={"w-full flex flex-col justify-center bg-slate-800 items-center px-1 md:px-20 py-5 shadow-sm shadow-blue-500 "}>
      <h1 className="fontSize">{`How it Works`}</h1>
    <div className="flex flex-col-reverse lg:flex-row-reverse items-center justify-evenly p-1 ">
    <div className="w-11/12 lg:w-7/12">
