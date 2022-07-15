@@ -16,7 +16,7 @@ const {asPath} = useRouter();
   const[nav,setNav]= useState(1);
 
 const ChangeNav=()=>{
-  if(asPath==="/solutions")
+  if(asPath==="/Solutions")
   {
     setNav(2);
     console.log("set nav 2")
@@ -72,14 +72,16 @@ const ChangeNav=()=>{
             
             onClick={()=>ChangeNav()}>Home</li>
             </Link>
-         <Link href="/solutions">
+         <Link href="/Solutions">
          <li  className={`p-1 px-2 flex items-center justify-center cursor-pointer text-center ${nav===2?`bg-violet-800`:`bg-transparent`}  rounded-lg transition-colors hover:bg-violet-200 hover:text-violet-800  active:rounded-sm`} 
             
             onClick={()=>ChangeNav()}>Solution</li>
          </Link>
+         <Link href="/CaseStudies">
             <li  className={`p-1 px-2 flex items-center justify-center cursor-pointer text-center ${nav===3?`bg-violet-800`:`bg-transparent`}  rounded-lg transition-colors hover:bg-violet-200 hover:text-violet-800  active:rounded-sm`} 
             
             onClick={()=>ChangeNav()}><h5 className='leading-tight'>Case Studies</h5></li>
+             </Link>
             <li  className={`p-1 px-2 flex items-center justify-center cursor-pointer text-center ${nav===4?`bg-violet-800`:`bg-transparent`}  rounded-lg transition-colors hover:bg-violet-200 hover:text-violet-800  active:rounded-sm`} 
             
             onClick={()=>ChangeNav()}>Pricing</li>

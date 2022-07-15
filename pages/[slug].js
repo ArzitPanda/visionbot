@@ -5,6 +5,7 @@ import NavBar from '../components/NavBar'
 import TopSection from '../components/TopSection'
 import { data } from '../Data/pages'
 import Head from 'next/head'
+import MidSection from '../components/MidSection'
 const ExamplePage = ({posts}) => {
   return (
     <div className="bg-slate-900 w-screen">
@@ -18,8 +19,8 @@ const ExamplePage = ({posts}) => {
      
       
       <TopSection/>
-
-        <Implementation/>
+      <MidSection solution={posts[0]}/>
+        <Implementation />
         </div>
   )
 }

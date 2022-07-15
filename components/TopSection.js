@@ -3,9 +3,12 @@ import {TbReportAnalytics} from 'react-icons/tb'
 import {MdOutlineEventNote} from 'react-icons/md'
 import {IoAlertCircle} from  'react-icons/io5'
 import {IoAnalyticsSharp} from 'react-icons/io5'
+
+
+
 const TopSection = () => {
   return (
-    <div className="text-center md:text-left bg-slate-800  p-12 gap-y-4  flex flex-col items-center justify-center tracking-wide  m-10 font-semibold text-gray-300 rounded-lg shadow-lg">
+    <div className=" text-xs  p-2 md:text-lg  text-center md:text-left bg-slate-800    md:p-12 gap-y-4  flex flex-col items-center justify-center tracking-wide  m-2 md:m-10 font-semibold text-gray-300 rounded-lg shadow-lg">
     <p>
   <b className="text-white">VisionBot</b> is a Cloud Based AI & Computer Vision Platform that derives analysable objective data regarding objects, people and events from streaming or stored videos. Our target market is retail enterprises that need custom object and event detection through 24x7 visual monitoring to improve operational efficiency.
     </p>

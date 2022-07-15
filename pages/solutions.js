@@ -14,7 +14,7 @@ const Solutions = () => {
  const {asPath}=useRouter();
 
   return (
-   <div className="w-screen h-screen ">
+   <div className="w-screen h-screen scrollbar-hide">
     <Head>
        <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap"
@@ -41,7 +41,7 @@ const Solutions = () => {
         <div className="w-full flex items-center justify-center">
       <Heading c="solution" form="Home" to="solution"/>
       </div>
-        {data.map((data,i)=><Card key={i}photoURL={data.photoURL} name={data.name} list={data.list} source={data.slug}/>)}
+        {data.map((data,i)=><Card key={i} photoURL={data.photoURL} name={data.name} list={data.list} source={data.slug}/>)}
          <FooterBot />
     
    </div>

@@ -29,6 +29,7 @@
     "react-responsive-carousel": "^3.2.23",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",
+    "tailwind-scrollbar-hide": "^1.1.7",
     "twin.macro": "^2.8.2"
   },
   "devDependencies": {
