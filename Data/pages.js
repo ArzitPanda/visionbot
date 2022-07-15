@@ -247,7 +247,7 @@ export const data =[
         slug:"ManufacturingQualityAssurance",
         photoURL:"https://visionbot.com/assets/images/sln/quality.png",
         list:["Non-intrusive automated visual inspection of objects in an assembly line","Effective detection of manufacturing or assembly defects","Identification of deformities, variance in size and colour of objects"],
-    
+            solution:[]
     
     },{
         name:"Construction",
@@ -434,6 +434,7 @@ export const data =[
             "Post-match analysis",
             "Pre-match prediction",
             "Statistics"],
+            solution:[]
     }
     
     
