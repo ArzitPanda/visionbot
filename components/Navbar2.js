@@ -15,27 +15,27 @@ const {asPath} = useRouter();
     console.log(data);
   const[nav,setNav]= useState(1);
 
-const ChangeNav=()=>{
-  if(asPath==="/Solutions")
-  {
-    setNav(2);
-    console.log("set nav 2")
-    return;
-  }
-  if(asPath==="/")
-  {
-    setNav(1);
-    return;
-  }
+  const ChangeNav=()=>{
+    if(asPath==="/Solutions")
+    {
+      setNav(2);
+      console.log("set nav 2")
+      return;
+    }
+    if(asPath==="/")
+    {
+      setNav(1);
+      return;
+    }
 
-  if(asPath==="/casestudies")
-  {
-    setNav(3);
-    return;
-  }
+    if(asPath==="/Casestudies")
+    {
+      setNav(3);
+      return;
+    }
+   
  
-
-}
+  }
 
   const Navlist="p-1 px-2 flex items-center justify-center cursor-pointer text-center rounded-lg transition-colors hover:bg-violet-800 active:rounded-sm"
 
