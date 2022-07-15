@@ -58,7 +58,7 @@ const MidSection = ({solution}) => {
                         {ele.subtags.length !=0 && 
                             <div className="grid grid-cols-2 gap-y-3 ">
 
-                                {ele.subtags.map((element,key)=>{return(<div className="flex flex=col items-center justify-start gap-x-4">
+                                {ele.subtags.map((element,key)=>{return(<div key={key} className="flex flex=col items-center justify-start gap-x-4">
                                     <FaAngleRight color='white'/>
                                         <div className="text-slate-400 text-lg font-semibold">{element}</div>
 

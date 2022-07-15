@@ -22,13 +22,13 @@ console.log(asPath);
            <CardCase heading={datap.heading} imgUrl={datap.imgUrl}  problem={datap.problem} solution={datap.solution}/>
             <div className=" h-full w-3/12 md:mb-10  md:w-11/12 md:h-1/5 flex items-center flex-col md:flex-row justify-around md:bg-slate-500 rounded-t-lg">
                 
-                {Case.map((ele)=>{return(<div className="w-10/12 md:w-1/12 h-[40px] md:h-full cursor-pointer  hover:border-2" onClick={()=>{
+                {Case.map((ele,o)=>{return(<div key={o} className="w-10/12 md:w-1/12 h-[40px] md:h-full cursor-pointer  hover:border-2" onClick={()=>{
 
                     setDataP(ele);
                     console.log(ele);
                 }}>
                     <img src={ele.imgUrl} alt="eleme" className='w-full h-full object-contain'/> 
-                    <span class="tooltip-text bg-blue-200 p-3 -mt-16 -ml-6 rounded hidden group-hover:block absolute text-center py-2 px-6 z-50&quot;">{ele.heading}</span>
+                    <span className="tooltip-text bg-blue-200 p-3 -mt-16 -ml-6 rounded hidden group-hover:block absolute text-center py-2 px-6 z-50&quot;">{ele.heading}</span>
                 </div>)})}
             </div>
             </div>
