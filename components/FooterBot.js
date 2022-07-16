@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const FooterBot = () => {
@@ -36,7 +37,7 @@ const FooterBot = () => {
 				<h3 className="tracking-wide uppercase dark:text-gray-50">Company</h3>
 				<ul className="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="#">Privacy</a>
+						<Link href={"/Privacy"}>Privacy</Link>
 					</li>
 					<li>
 						<a rel="noopener noreferrer" href="#">Terms of Service</a>

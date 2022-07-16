@@ -15,7 +15,7 @@ const ExamplePage = ({posts}) => {
         <div className="w-screen flex-col items-center justify-center gap-y-2">
         <Heading c={posts[0].name} form="solution" to={posts[0].name}/>
         </div>
-        <h2 className="text-white text-xl md:text-3xl font-semibold text-center">AI DRIVEN AUTOMATED VIDEO MONITORING FOR {posts[0].name.toUpperCase()}</h2>
+        <h2 className="text-slate-200 bg-slate-800 py-5 rounded-xl shadow-xl text-xl md:text-3xl font-semibold text-center">AI DRIVEN AUTOMATED VIDEO MONITORING FOR {posts[0].name.toUpperCase()}</h2>
      
       
       <TopSection/>

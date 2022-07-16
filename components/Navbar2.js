@@ -64,7 +64,7 @@ const {asPath} = useRouter();
           
         
         
-        className='w-full flex md:w-3/5 items-center justify-between text-[#EEEADE] px-1 md:px-3 lg:pl-24 py-2 lg:pr-6 rounded-3xl glowing  md:text-lg bg-gray-800'>
+        className='w-full flex md:w-3/5 text-xs items-center justify-between text-[#EEEADE] px-1 md:px-3 lg:pl-24 py-2 lg:pr-6 rounded-3xl glowing  md:text-lg bg-gray-800'>
             <Link href="/">
             <li className={`p-1 px-2 flex items-center justify-center cursor-pointer text-center ${nav===1?`bg-violet-800`:`bg-transparent`}  rounded-lg transition-colors hover:bg-violet-200 hover:text-violet-800 active:rounded-sm`} 
             
@@ -78,9 +78,9 @@ const {asPath} = useRouter();
             onClick={()=>ChangeNav()}>Solution</li>
          </Link>
          <Link href="/Casestudies">
-            <li  className={`p-1 px-2 flex items-center justify-center cursor-pointer text-center ${nav===3?`bg-violet-800`:`bg-transparent`}  rounded-lg transition-colors hover:bg-violet-200 hover:text-violet-800  active:rounded-sm`} 
+            <li  className={` px-2 py-1 flex items-center justify-center cursor-pointer text-center ${nav===3?`bg-violet-800`:`bg-transparent`}  rounded-lg transition-colors hover:bg-violet-200 hover:text-violet-800  active:rounded-sm`} 
             
-            onClick={()=>ChangeNav()}><h5 className='leading-tight'>Case Studies</h5></li>
+            onClick={()=>ChangeNav()}><h5 className='leading-tight text-sm md:text-lg'>Case Studies</h5></li>
              </Link>
             <li  className={`p-1 px-2 flex items-center justify-center cursor-pointer text-center ${nav===4?`bg-violet-800`:`bg-transparent`}  rounded-lg transition-colors hover:bg-violet-200 hover:text-violet-800  active:rounded-sm`} 
             
