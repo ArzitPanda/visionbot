@@ -39,7 +39,7 @@ const {asPath}=useRouter();
     />
 </Head>
 
-    <NavBar data3={asPath}/>
+    <NavBar2 data3={asPath}/>
 
     <div className="w-screen h-7/12 relative ">
       <div className="z-20 top-0 absolute bg-black h-full w-full text-white bg-opacity-70 flex flex-col items-center justify-center">
