@@ -14,7 +14,7 @@ const Solutions = () => {
  const {asPath}=useRouter();
 
   return (
-   <div className="w-screen h-screen scrollbar-hide">
+   <div className="w-screen h-screen scrollbar-hide md:scrollbar-default">
     <Head>
        <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap"
