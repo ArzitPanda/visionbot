@@ -22,7 +22,8 @@ import Heading from '../components/Heading';
 import Describe from '../components/Describe';
 import NewFooter from '../components/NewFooter';
 import { useRouter } from 'next/router';
-
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 export default function Home() {
     const data=useContext(Store);
     console.log(data);
@@ -89,11 +90,14 @@ const {asPath}=useRouter();
    <VideoComp/>
   
     <BigCard/>
-   
+    <AnimationOnScroll animateOnce={true} animateIn='animate__backInLeft ' delay={300} initiallyVisible={true}>
     <CardOne/>
+          
+          </AnimationOnScroll>
    
-   
+          <AnimationOnScroll animateOnce={true} animateIn='animate__slideInLeft ' delay={10}>
     <HowItWorks/>
+    </AnimationOnScroll>
    <Describe/>
    <FooterBot/>
       
