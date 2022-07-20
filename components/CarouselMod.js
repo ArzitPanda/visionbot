@@ -23,7 +23,7 @@ const responsive = {
 const CarouselMod = () => {
 
 return(
-    <div className="bg-[#05010e] mb-28 py-10 flex items-center justify-center flex-col">
+    <div className="bg-slate-800 mb-28 py-10 flex items-center justify-center flex-col">
 
    <h2 className="text-slate-300 text-3xl md:text-6xl py-6 font-Chivo">Comanies we worked for</h2>
 

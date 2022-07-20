@@ -32,7 +32,7 @@ const {asPath}=useRouter();
   return (
 
 
-    <div className={`w-screen  bg-[#05010E] relative `} >
+    <div className={`w-screen  bg-slate-900 relative `} >
        <Head>
        <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap"
@@ -99,7 +99,9 @@ const {asPath}=useRouter();
     <HowItWorks/>
     </AnimationOnScroll>
    <Describe/>
-   <FooterBot/>
+   <AnimationOnScroll animateOnce={true} animateIn='animate__fadeInLeftBig'>
+          <FooterBot/>
+          </AnimationOnScroll>
       
      
     </div>

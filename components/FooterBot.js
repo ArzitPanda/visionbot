@@ -23,10 +23,14 @@ const FooterBot = () => {
 						<a rel="noopener noreferrer" href="#">Features</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Integrations</a>
+					<li>
+						<Link href={"/AboutUs"}>About us</Link>
+					</li>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Pricing</a>
+					<li>
+						<Link href={"/Price"}>Price</Link>
+					</li>
 					</li>
 					<li>
 						<a rel="noopener noreferrer" href="#">FAQ</a>
@@ -38,6 +42,9 @@ const FooterBot = () => {
 				<ul className="space-y-1">
 					<li>
 						<Link href={"/Privacy"}>Privacy</Link>
+					</li>
+					<li>
+						<Link href={"/contactUs"}>Contact us</Link>
 					</li>
 					<li>
 						<a rel="noopener noreferrer" href="#">Terms of Service</a>

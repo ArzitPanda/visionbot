@@ -20,7 +20,10 @@ const arr=data.slice(0,3);
     <section className="w-screen body-font bg-[#0a345f] ">
     
       <div className="w-full  flex  items-center justify-center flex-wrap  gap-y-3  ">
-      {arr.map((data,i)=><Card key={i} photoURL={data.photoURL} name={data.name} list={data.list}/>)}
+      {arr.map((data,i)=>
+      
+      
+      <Card key={i} photoURL={data.photoURL} name={data.name} list={data.list}/>)}
       
         
       </div>

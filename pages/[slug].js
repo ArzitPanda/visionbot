@@ -6,6 +6,7 @@ import TopSection from '../components/TopSection'
 import { data } from '../Data/pages'
 import Head from 'next/head'
 import MidSection from '../components/MidSection'
+import FooterBot from '../components/FooterBot'
 const ExamplePage = ({posts}) => {
   return (
     <div className="bg-slate-900 w-screen">
@@ -21,6 +22,7 @@ const ExamplePage = ({posts}) => {
       <TopSection/>
       <MidSection solution={posts[0]}/>
         <Implementation />
+        <FooterBot/>
         </div>
   )
 }
