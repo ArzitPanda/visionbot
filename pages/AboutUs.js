@@ -34,9 +34,9 @@ const AboutUs = () => {
             <div className="flex items-center justify-center w-11/12 mx-auto md:justify-start">
         <span className="bg-slate-700 text-yellow-50 text-center text-3xl py-2 px-5 rounded-lg ">Founders</span>
         </div>
-         {profiles.map((ele,idx)=>{return(<div className="my-6">
-         <AnimationOnScroll animateOnce={true} animateIn='animate__fadeInLeftBig'>
-         <Profile  name={ele.name} about={ele.about} imgsrc={ele.imgsrc}  key={idx}/>
+         {profiles.map((ele,idx)=>{return(<div className="my-6" key={idx}>
+         <AnimationOnScroll animateOnce={true} animateIn='animate__fadeInLeftBig' >
+         <Profile  name={ele.name} about={ele.about} imgsrc={ele.imgsrc}  />
           </AnimationOnScroll>
           
         </div>)})}
