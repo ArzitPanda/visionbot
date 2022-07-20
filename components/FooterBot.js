@@ -44,7 +44,7 @@ const FooterBot = () => {
 						<Link href={"/Privacy"}>Privacy</Link>
 					</li>
 					<li>
-						<Link href={"/contactUs"}>Contact us</Link>
+						<Link href={"/ContactUs"}>Contact us</Link>
 					</li>
 					<li>
 						<a rel="noopener noreferrer" href="#">Terms of Service</a>
