@@ -52,7 +52,7 @@ const {asPath}=useRouter();
                 <motion.div initial={{x:"-100px",opacity:0}}
                 
                 animate={{ x: "0px",opacity:1 }}
-    transition={{type:"spring",stiffness:120,duration:2}} 
+    transition={{type:"spring",stiffness:120,duration:3}} 
                 className="font-bebas-neue uppercase text-3xl md:text-6xl font-black flex flex-col leading-none text-white ">
                 objective data{' '}
                     <span className="text-2xl md:text-5xl mt-1 py-3 text-blue-700">
