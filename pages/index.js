@@ -24,6 +24,7 @@ import NewFooter from '../components/NewFooter';
 import { useRouter } from 'next/router';
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { motion } from 'framer-motion';
 export default function Home() {
     const data=useContext(Store);
     console.log(data);
@@ -48,12 +49,16 @@ const {asPath}=useRouter();
       <div className="flex-1 flex flex-col relative z-20 h-11/12 items-center justify-center" >
                 <span className="w-20 h-2 bg-white mb-12">
                 </span>
-                <h1 className="font-bebas-neue uppercase text-3xl md:text-6xl font-black flex flex-col leading-none text-white ">
+                <motion.div initial={{x:"-100px",opacity:0}}
+                
+                animate={{ x: "0px",opacity:1 }}
+    transition={{type:"spring",stiffness:120,duration:2}} 
+                className="font-bebas-neue uppercase text-3xl md:text-6xl font-black flex flex-col leading-none text-white ">
                 objective data{' '}
                     <span className="text-2xl md:text-5xl mt-1 py-3 text-blue-700">
                        subjective Visuals
                     </span>
-                </h1>
+                </motion.div>
                 <p className="text-sm sm:text-base text-white w-1/2 text-center hidden md:block">
                     Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.
                 </p>
