@@ -20,7 +20,7 @@ const FooterBot = () => {
 				<h3 className="tracking-wide uppercase dark:text-gray-50">Product</h3>
 				<ul className="space-y-1">
 					<li>
-					<Link href={"/Terms"}>About us</Link>
+						<a rel="noopener noreferrer" href="#">Features</a>
 					</li>
 					<li>
 					<li>
@@ -47,7 +47,7 @@ const FooterBot = () => {
 						<Link href={"/ContactUs"}>Contact us</Link>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Terms of Service</a>
+					<Link href={"/Terms"}>Terms & Services</Link>
 					</li>
 				</ul>
 			</div>
