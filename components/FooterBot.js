@@ -33,7 +33,7 @@ const FooterBot = () => {
 					</li>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">FAQ</a>
+					<Link href={"/Awards"}>Awards</Link>
 					</li>
 				</ul>
 			</div>
