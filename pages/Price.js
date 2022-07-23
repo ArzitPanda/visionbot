@@ -6,15 +6,11 @@ import Table from '../components/Table'
 
 const Price = () => {
   return (
-<<<<<<< HEAD
     <div className="bg-slate-800">
       <NavBar/>
       <Pricing/>
     <FooterBot/>
-=======
-    <div className="bg-slate-800"><Pricing/>
-    <Table/>
->>>>>>> parent of 251d048 (add half carrear component)
+    
     
     </div>
   )
