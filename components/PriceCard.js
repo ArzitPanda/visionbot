@@ -7,7 +7,7 @@ const[play]=useSound("beep1.mp3",{volume:.4})
 
 
   return (
-    <div className=" w-11/12 lg:w-1/4 flex flex-col bg-slate-900 rounded-xl shadow-2xl shadow-gray-800 cursor-pointer hover:scale-110 z-20 hover:bg-gray-900 transition-all" onMouseEnter={play}>
+    <div className=" w-9/12 lg:w-1/4 flex flex-col bg-slate-900 rounded-xl shadow-2xl shadow-gray-800 cursor-pointer hover:scale-110 z-20 hover:bg-gray-900 transition-all" onMouseEnter={play}>
     <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-gray-900">
         <div className="space-y-2 py-4 text-white">
             <h4 className="text-2xl font-bold">Beginner</h4>
