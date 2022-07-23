@@ -55,7 +55,7 @@ const FooterBot = () => {
 				<h3 className="uppercase dark:text-gray-50">Developers</h3>
 				<ul className="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="#">Public API</a>
+					<Link href={"/Careers"}>Careers</Link>
 					</li>
 					<li>
 						<a rel="noopener noreferrer" href="#">Documentation</a>

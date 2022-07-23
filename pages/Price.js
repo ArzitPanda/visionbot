@@ -5,7 +5,7 @@ import Table from '../components/Table'
 const Price = () => {
   return (
     <div className="bg-slate-800"><Pricing/>
-    <Table/>
+    
     
     </div>
   )
