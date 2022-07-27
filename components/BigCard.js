@@ -33,7 +33,7 @@ const BigCard = () => {
   return (
     <div className={"w-full flex flex-col bgimg6 justify-center items-center px-1 md:px-20 py-5 shadow-sm shadow-blue-500"}>
       <div className='w-full flex items-center lg:justify-start justify-center mb-12 mt-6 border-b-2 border-gray-200'>
-         <h1 className="text-5xl text-left p-2 text-slate-200">{headLine.toUpperCase()}</h1>
+         <h1 className="text-xl md:text-4xl text-left p-2 text-slate-200">{headLine.toUpperCase()}</h1>
          </div>
        <div className="flex flex-col-reverse lg:flex-row items-center justify-evenly p-1 ">
        <div className="w-11/12 lg:w-7/12">
