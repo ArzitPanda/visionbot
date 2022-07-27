@@ -44,7 +44,12 @@ useEffect((
       return;
     }
    
- 
+    if(asPath==="/Price")
+    {
+      setNav(4);
+      return;
+    }
+   
   }
 
   const Navlist="p-1 px-2 flex items-center justify-center cursor-pointer text-center rounded-lg transition-colors hover:bg-violet-800 active:rounded-sm"
@@ -92,9 +97,11 @@ useEffect((
             
             onClick={()=>ChangeNav()}><h5 className='leading-tight'>Case Studies</h5></li>
             </Link>
+            <Link href="/Price">
             <li  className={`p-1 px-2 flex items-center justify-center cursor-pointer text-center ${nav===4?`bg-violet-800`:`bg-transparent`}  rounded-lg transition-colors hover:bg-violet-200 hover:text-violet-800  active:rounded-sm`} 
             
             onClick={()=>ChangeNav()}>Pricing</li>
+            </Link>
             <li className='buttonAnimate  '><h6>Login</h6></li>
 
 

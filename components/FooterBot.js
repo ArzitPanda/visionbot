@@ -20,7 +20,7 @@ const FooterBot = () => {
 				<h3 className="tracking-wide uppercase dark:text-gray-50">Product</h3>
 				<ul className="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="#">Features</a>
+					<Link href={"/Careers"}>Careers</Link>
 					</li>
 					<li>
 					<li>
