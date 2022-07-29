@@ -12,7 +12,7 @@ const FooterBot = () => {
  width="190.000000pt" height="107.000000pt" viewBox="0 0 190.000000 107.000000"
  preserveAspectRatio="xMidYMid meet">
 
-<g transform="translate(0.000000,107.000000) scale(0.100000,-0.100000)"
+<g transform="translate(0.000000,107.000000) scale(1.100000,-1.100000)"
 fill="#ffffff" stroke="none">
 <path d="M890 1021 c-57 -12 -200 -92 -252 -143 -40 -39 -48 -53 -48 -84 0
 -50 47 -93 141 -130 100 -39 145 -74 160 -124 l12 -40 53 0 c106 0 336 148
