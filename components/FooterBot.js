@@ -7,23 +7,7 @@ const FooterBot = () => {
 	<div className="container flex flex-col items-center  justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 		<div className="lg:w-1/3">
 			<a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
-				<div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
-				{/* <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="190.000000pt" height="107.000000pt" viewBox="0 0 190.000000 107.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,107.000000) scale(1.100000,-1.100000)"
-fill="#ffffff" stroke="none">
-<path d="M890 1021 c-57 -12 -200 -92 -252 -143 -40 -39 -48 -53 -48 -84 0
--50 47 -93 141 -130 100 -39 145 -74 160 -124 l12 -40 53 0 c106 0 336 148
-350 226 9 49 -32 87 -162 149 -105 51 -113 57 -134 100 -12 25 -27 45 -33 45
--7 0 -21 2 -32 4 -11 2 -36 1 -55 -3z m148 -118 c47 -35 72 -81 72 -135 0 -92
--57 -159 -143 -166 -69 -5 -120 17 -154 69 -54 82 -34 178 49 232 37 24 51 28
-96 24 32 -2 64 -12 80 -24z"/>
-
-</g>
-</svg> */}
-				</div>
+				
 				<span className="self-center text-lg md:text-2xl font-semibold">Vision Bot</span>
 			</a>
 		</div>

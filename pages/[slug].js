@@ -60,7 +60,7 @@ export const getStaticProps= async ({params})=>{
 
   const datas= data.filter((value)=>{return value.slug===params.slug})
 
-  console.log(datas);
+  // console.log(datas);
   return{
 
       props:{

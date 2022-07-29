@@ -23,7 +23,7 @@ const arr=data.slice(0,3);
       {arr.map((data,i)=>
       
       
-      <Card key={i} photoURL={data.photoURL} name={data.name} list={data.list}/>)}
+      <Card key={i} photoURL={data.photoURL} name={data.name} list={data.list} source={data.slug}/>)}
       
         
       </div>
