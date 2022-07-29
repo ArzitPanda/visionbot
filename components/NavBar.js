@@ -106,8 +106,8 @@ useEffect((
             </Link>
             <li className='buttonAnimate  '><h6>Login</h6></li>
             <div className="flex md:hidden items-center justify-center" onClick={()=>{setValue(!value)}}>
-            {value === false && (<BsFillArrowDownCircleFill size={15} color="white" />)}
-            {value === true && (<BsFillArrowUpCircleFill size={15} color="white"/>)}
+            {value === false && (<BsFillArrowDownCircleFill size={20} color="white" />)}
+            {value === true && (<BsFillArrowUpCircleFill size={20} color="white"/>)}
 
             
             </div>
