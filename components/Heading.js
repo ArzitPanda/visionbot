@@ -6,7 +6,7 @@ const Heading = ({c,to,form}) => {
 
         <h2 className="flex flex-1 text-center lg:pl-3 lg:text-left  p-2 text-xs md:text-xl lg:text-4xl">{c.toUpperCase()}</h2>
         <div className="flex flex-row items-center text-xs md:text-xl ">
-           <span className=" px-2 bg-blue-700 rounded-full mr-2 py-2"> {to+" "}</span><div className="text-xs py-2 md:text-xl">/{form}</div>
+           <span className=" px-2 bg-blue-700 rounded-full mr-2 h-2/4 md:h-full"> {to+" "}</span><div className="text-xs  md:text-xl">/{form}</div>
         </div>
     </div>
   )
