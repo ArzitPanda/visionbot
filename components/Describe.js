@@ -14,7 +14,7 @@ const Describe = () => (
 					</svg>
 				</div>
 				<div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
-					<span className="text-xs tracking-wider uppercase dark:text-violet-400">Step 1 </span>
+					<span className="text-[7px] tracking-wider uppercase dark:text-violet-400">Step 1 </span>
 					<span className="text-xl font-bold md:text-2xl">Define the source of Visuals</span>
 					{/* <span className="mt-4 text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons equatur nihil ipsum.</span> */}
 				</div>
@@ -28,7 +28,7 @@ const Describe = () => (
 					</svg>
 				</div>
 				<div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
-					<span className="text-xs tracking-wider uppercase dark:text-violet-400">Step 2 </span>
+					<span className="text-[7px]  tracking-wider uppercase dark:text-violet-400">Step 2 </span>
 					<span className="text-xl font-bold md:text-2xl">Define the outcome</span>
 					{/* <span className="mt-4 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons equatur nihil ipsum.</span> */}
 				</div>
@@ -41,7 +41,7 @@ const Describe = () => (
 					</svg>
 				</div>
 				<div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
-					<span className="text-xs tracking-wider uppercase dark:text-violet-400">Step 3 </span>
+					<span className="text-[7px] tracking-wider uppercase dark:text-violet-400">Step 3 </span>
 					<span className="text-xl font-bold md:text-2xl">Customizations</span>
 					{/* <span className="mt-4 dark:bg-gray-800 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons equatur nihil ipsum.</span> */}
 				</div>
@@ -55,7 +55,7 @@ const Describe = () => (
 					</svg>
 				</div>
 				<div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
-					<span className="text-xs tracking-wider uppercase dark:text-violet-400">Step 4 </span>
+					<span className="text-[7px] tracking-wider uppercase dark:text-violet-400">Step 4 </span>
 					<span className="text-xl font-bold md:text-2xl">24/7 observation and Reporting</span>
 					{/* <span className="mt-4 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons equatur nihil ipsum.</span> */}
 				</div>
