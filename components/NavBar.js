@@ -79,7 +79,7 @@ useEffect((
           
         
         
-        className='w-full flex md:w-3/5 items-center justify-between text-[#EEEADE] px-3 lg:pl-24 py-2 lg:pr-6 rounded-3xl glowing  md:text-lg bg-gray-800'>
+        className='w-full flex md:w-3/5 items-center justify-between text-[#EEEADE] px-3 lg:pl-24 py-2 lg:pr-6 rounded-3xl glowing text-sm md:text-lg bg-gray-800'>
             <Link href="/">
             <li className={`p-1 px-2 flex items-center justify-center cursor-pointer text-center ${nav===1?`bg-violet-800`:`bg-transparent`}  rounded-lg transition-colors hover:bg-violet-200 hover:text-violet-800 active:rounded-sm`} 
             

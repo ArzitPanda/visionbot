@@ -84,7 +84,7 @@ const {asPath}=useRouter();
      
       </div>
       <video className="h-96 md:h-full object-cover w-full z-10 " preload="auto" loop={true} autoPlay={true} muted={true} >
-                            <source src="https://visionbot.com/videos/bannervideo_white.mp4" type="video/mp4"/>
+                            <source src="bannervideo_white.mp4" type="video/mp4"/>
       </video>
      </div>
     <div className="bgimage">
