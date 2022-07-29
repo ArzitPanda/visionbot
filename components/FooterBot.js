@@ -8,7 +8,7 @@ const FooterBot = () => {
 		<div className="lg:w-1/3">
 			<a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
 				<div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
-				<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+				{/* <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="190.000000pt" height="107.000000pt" viewBox="0 0 190.000000 107.000000"
  preserveAspectRatio="xMidYMid meet">
 
@@ -22,7 +22,7 @@ fill="#ffffff" stroke="none">
 96 24 32 -2 64 -12 80 -24z"/>
 
 </g>
-</svg>
+</svg> */}
 				</div>
 				<span className="self-center text-lg md:text-2xl font-semibold">Vision Bot</span>
 			</a>
